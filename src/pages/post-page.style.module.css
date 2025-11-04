@@ -1,0 +1,21 @@
+.bookmark-icon {
+
+  width: 30px;
+
+  height: 30px;
+
+  cursor: pointer;
+
+  margin-left: 10px;
+
+}
+
+.heading-ele{
+  color:blue;
+  font-variant-caps: small-caps;
+}
+.filter-box {
+  float: right;
+  padding: 6px;
+  font-size: 15px;
+}
