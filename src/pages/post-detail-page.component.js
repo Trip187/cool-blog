@@ -78,7 +78,7 @@ function PostDetailPage() {
                   <span className={classes["image-container"]}>
                     <img
                       src={`${process.env.PUBLIC_URL}/images/posts/${slug}/${node.properties.src}`}
-                      alt={node.properties.alt}
+                      alt={node.properties.alt || slug}
                       width="600"
                       height="300"
                     />
