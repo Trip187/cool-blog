@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkcool_blog=self.webpackChunkcool_blog||[]).push([[365],{746:(s,o,r)=>{r.r(o),r.d(o,{default:()=>n});var e=r(43),c=r(3),l=r(88),t=r(999),k=r(579);const n=()=>{const s=(0,c.d4)(l.Np);return(0,k.jsxs)(e.Fragment,{children:[(0,k.jsx)("h1",{children:"Your Bookmarks"}),(0,k.jsx)(t.A,{posts:s,isBookmark:"true"})]})}}}]);
+//# sourceMappingURL=365.b1c2556b.chunk.js.map
