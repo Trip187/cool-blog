@@ -10,13 +10,19 @@ const PostCard = ({ posts, isBookmark }) => {
   const dispatch = useDispatch();
   const { id, data } = posts;
   const { title, image, excerpt, date } = data;
-  const imagePath = `/images/posts/${id}/${image}`;
+  const imagePath = `${process.env.PUBLIC_URL}/images/posts/${id}/${image}`;
+
   const linkPath = `/posts/${id}`;
 
   const bookmarkItems = useSelector(selectBookmarkItems);
   const onClickRemoveItemHandler = () => {
     dispatch(removeItemFromBookmark(bookmarkItems, posts));
   };
+  console.log("Rendering PostCard:", id, image);
+  console.log(
+    "Image path:",
+    `${process.env.PUBLIC_URL}/images/posts/${id}/${image}`
+  );
 
   return (
     <li className={classes.post}>

@@ -29,7 +29,7 @@ function PostDetailPage() {
     );
 
   useEffect(() => {
-    const url = `/contents/posts/${slug}.md`;
+    const url = `${process.env.PUBLIC_URL}/contents/posts/${slug}.md`;
     const getContent = fetchData(url, "md");
     const getInfo = getPostById(slug);
 
@@ -41,6 +41,7 @@ function PostDetailPage() {
       })
 
       .catch((error) => {
+        console.error("🔥 Fetch error:", error);
         setError(error.message);
       })
 
@@ -74,10 +75,11 @@ function PostDetailPage() {
           <ReactMarkdown
             components={{
               img({ node }) {
+                const src = node.properties.src.replace(/^(\.\/|\/)/, "");
                 return (
                   <span className={classes["image-container"]}>
                     <img
-                      src={`/images/posts/${slug}/${node.properties.src}`}
+                      src={`${process.env.PUBLIC_URL}/images/posts/${slug}/${src}`}
                       alt={node.properties.alt}
                       width="600"
                       height="300"

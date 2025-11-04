@@ -117,6 +117,8 @@ const PostPage = () => {
     });
     setFilteredPosts(newFilteredPosts);
   }, [searchString, posts]);
+  console.log("All posts fetched:", posts);
+  console.log("Filtered posts:", filteredPosts);
 
   return (
     <Fragment>
