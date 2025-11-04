@@ -1,31 +1,31 @@
 {
   "files": {
     "main.css": "/cool-blog/static/css/main.36b8e947.css",
-    "main.js": "/cool-blog/static/js/main.e8fb5583.js",
+    "main.js": "/cool-blog/static/js/main.e381e31c.js",
     "static/js/365.b1c2556b.chunk.js": "/cool-blog/static/js/365.b1c2556b.chunk.js",
     "static/js/177.fd1f7551.chunk.js": "/cool-blog/static/js/177.fd1f7551.chunk.js",
     "static/css/352.dc4ddedb.chunk.css": "/cool-blog/static/css/352.dc4ddedb.chunk.css",
     "static/js/352.6dc2ff07.chunk.js": "/cool-blog/static/js/352.6dc2ff07.chunk.js",
     "static/css/478.16d64cf9.chunk.css": "/cool-blog/static/css/478.16d64cf9.chunk.css",
-    "static/js/478.7fc91d69.chunk.js": "/cool-blog/static/js/478.7fc91d69.chunk.js",
+    "static/js/478.58647928.chunk.js": "/cool-blog/static/js/478.58647928.chunk.js",
     "static/js/453.7a893b21.chunk.js": "/cool-blog/static/js/453.7a893b21.chunk.js",
     "static/js/510.aee6efc7.chunk.js": "/cool-blog/static/js/510.aee6efc7.chunk.js",
     "index.html": "/cool-blog/index.html",
     "static/media/trash.svg": "/cool-blog/static/media/trash.2cb7d59e1280fe42cf1e129103729e9d.svg",
     "static/media/bookmark.svg": "/cool-blog/static/media/bookmark.b2a0ef435924f3b87667bdf6d0f93ade.svg",
     "main.36b8e947.css.map": "/cool-blog/static/css/main.36b8e947.css.map",
-    "main.e8fb5583.js.map": "/cool-blog/static/js/main.e8fb5583.js.map",
+    "main.e381e31c.js.map": "/cool-blog/static/js/main.e381e31c.js.map",
     "365.b1c2556b.chunk.js.map": "/cool-blog/static/js/365.b1c2556b.chunk.js.map",
     "177.fd1f7551.chunk.js.map": "/cool-blog/static/js/177.fd1f7551.chunk.js.map",
     "352.dc4ddedb.chunk.css.map": "/cool-blog/static/css/352.dc4ddedb.chunk.css.map",
     "352.6dc2ff07.chunk.js.map": "/cool-blog/static/js/352.6dc2ff07.chunk.js.map",
     "478.16d64cf9.chunk.css.map": "/cool-blog/static/css/478.16d64cf9.chunk.css.map",
-    "478.7fc91d69.chunk.js.map": "/cool-blog/static/js/478.7fc91d69.chunk.js.map",
+    "478.58647928.chunk.js.map": "/cool-blog/static/js/478.58647928.chunk.js.map",
     "453.7a893b21.chunk.js.map": "/cool-blog/static/js/453.7a893b21.chunk.js.map",
     "510.aee6efc7.chunk.js.map": "/cool-blog/static/js/510.aee6efc7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.36b8e947.css",
-    "static/js/main.e8fb5583.js"
+    "static/js/main.e381e31c.js"
   ]
 }
