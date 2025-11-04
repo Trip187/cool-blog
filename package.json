@@ -1,6 +1,6 @@
 {
   "name": "cool-blog",
-  "home":"https://trip187.github.io/cool-blog/",
+ "homepage": "https://trip187.github.io/cool-blog",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
