@@ -6,7 +6,7 @@ import { signInWithGooglePopup } from "../utils/firebase.utils";
 const LoginPage = () => {
   const dispatch = useDispatch();
 
-  const [counterOne, setCounterOne] = useState(0);
+  /* const [counterOne, setCounterOne] = useState(0);
 
   const [counterTwo, setCounterTwo] = useState(0);
 
@@ -19,7 +19,7 @@ const LoginPage = () => {
   const c1x2 = useMemo(() => doubleCounterOne(), [counterOne]);
 
   console.log("counterOne =", c1x2);
-
+*/
   const signInWithGoogle = useCallback(async () => {
     const response = await signInWithGooglePopup();
 
@@ -29,7 +29,7 @@ const LoginPage = () => {
     <Fragment>
       <h1>Login Page</h1>
 
-      <div>
+      {/* <div>
         <span>Counter 1: {counterOne}</span>
 
         <button onClick={() => setCounterOne(counterOne + 1)}>
@@ -37,13 +37,15 @@ const LoginPage = () => {
         </button>
       </div>
 
-      <div>
+
+     <div>
         <span>Counter 2: {counterTwo}</span>
 
         <button onClick={() => setCounterTwo(counterTwo + 1)}>
           Increase Counter 2
         </button>
       </div>
+      */}
 
       <button onClick={signInWithGoogle}>Google Sign In</button>
     </Fragment>
