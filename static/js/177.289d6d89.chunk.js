@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkcool_blog=self.webpackChunkcool_blog||[]).push([[177],{177:(n,e,l)=>{l.r(e),l.d(e,{default:()=>r});var s=l(43),c=l(3),o=l(661),a=l(149),t=l(579);const r=()=>{const n=(0,c.wA)(),e=(0,s.useCallback)(async()=>{const e=await(0,a.gU)();n((0,o.l)(e.user))},[]);return(0,t.jsxs)(s.Fragment,{children:[(0,t.jsx)("h1",{children:"Login Page"}),(0,t.jsx)("button",{onClick:e,children:"Google Sign In"})]})}}}]);
+//# sourceMappingURL=177.289d6d89.chunk.js.map
